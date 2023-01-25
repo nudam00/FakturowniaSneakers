@@ -40,7 +40,7 @@ def post_invoice():
             sell_date = str(row['sell_date']).replace(' 00:00:00', '')
             buyer_name = row['buyer_name']
             name = row['name']
-            total_price_gross = row['total_price_gross']
+            total_price_gross = str(row['total_price_gross']).replace(',', '.')
             size = row['size']
             order = row['order']
             try:
@@ -53,7 +53,7 @@ def post_invoice():
             positions.append({"name": name, "tax": client['tax'],
                               "total_price_gross": total_price_gross,  "quantity": 1})
 
-            if buyer_name == 'stockxde' or buyer_name == 'stockxnl':
+            if buyer_name == 'StockXde' or buyer_name == 'StockXnl':
                 positions.append({'kind': 'text_separator', 'name': "Size: {}\nOrder: {}\nInvoice: {}\nTracking: {}".format(
                     size, order, inv, tracking)})
             else:
@@ -80,7 +80,7 @@ def post_invoice():
                     "positions": positions
                 }}
 
-            if buyer_name == 'goat' or buyer_name == 'stockxde' or buyer_name == 'stockxnl' or buyer_name == 'sneakit':
+            if buyer_name == 'Alias' or buyer_name == 'StockXde' or buyer_name == 'StockXnl' or buyer_name == 'Sneakit':
                 invoice['invoice']["buyer_tax_no"] = client['buyer_tax_no']
 
             positions = []
@@ -90,7 +90,7 @@ def post_invoice():
             sell_date = str(row['sell_date']).replace(' 00:00:00', '')
             buyer_name = row['buyer_name']
             name = row['name']
-            total_price_gross = row['total_price_gross']
+            total_price_gross = str(row['total_price_gross']).replace(',', '.')
             size = row['size']
             order = row['order']
             try:
@@ -103,7 +103,7 @@ def post_invoice():
             positions.append({"name": name, "tax": client['tax'],
                               "total_price_gross": total_price_gross,  "quantity": 1})
 
-            if buyer_name == 'stockxde' or buyer_name == 'stockxnl':
+            if buyer_name == 'StockXde' or buyer_name == 'StockXnl':
                 positions.append({'kind': 'text_separator', 'name': "Size: {}\nOrder: {}\nInvoice: {}\nTracking: {}".format(
                     size, order, inv, tracking)})
             else:
@@ -129,7 +129,7 @@ def post_invoice():
             "positions": positions
         }}
 
-    if buyer_name == 'goat' or buyer_name == 'stockxde' or buyer_name == 'stockxnl' or buyer_name == 'sneakit':
+    if buyer_name == 'Alias' or buyer_name == 'StockXde' or buyer_name == 'StockXnl' or buyer_name == 'Sneakit':
         invoice['invoice']["buyer_tax_no"] = client['buyer_tax_no']
 
     # Post last invoice
