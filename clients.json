@@ -1,5 +1,5 @@
 {
-	"goat": {
+	"Alias": {
         "buyer_name": "GOAT",
 		"buyer_post_code": "CA90018",
         "buyer_city": "Los Angeles",
@@ -9,7 +9,7 @@
         "currency": "USD",
         "tax": 0
 	},
-    "hypeboost": {
+    "HypeBoost": {
         "buyer_name": "Hypeboost B.V.",
 		"buyer_post_code": "4824 AS",
         "buyer_city": "Breda",
@@ -18,7 +18,7 @@
         "currency": "EUR",
         "tax": 21
 	},
-    "klekt": {
+    "Klekt": {
         "buyer_name": "Authenticated By LTD",
 		"buyer_post_code": "5301 LX",
         "buyer_city": "Zaltbommel",
@@ -27,7 +27,7 @@
         "currency": "EUR",
         "tax": 21
 	},
-    "restocks": {
+    "Restocks": {
         "buyer_name": "Restocks B.V.",
 		"buyer_post_code": "4822 PK",
         "buyer_city": "Breda",
@@ -36,7 +36,7 @@
         "currency": "EUR",
         "tax": 21
 	},
-    "sneakit": {
+    "Sneakit": {
         "buyer_name": "Sneakit Marketplace GmbH",
 		"buyer_post_code": "1230",
         "buyer_city": "Vienna",
@@ -46,7 +46,7 @@
         "currency": "EUR",
         "tax": 0
 	},
-    "wethenew": {
+    "WETHENEW": {
         "buyer_name": "WETHENEW",
 		"buyer_post_code": "93120",
         "buyer_city": "La Courneuve",
@@ -55,7 +55,7 @@
         "currency": "EUR",
         "tax": 20
 	},
-    "stockxde": {
+    "StockXde": {
         "buyer_name": "StockX LLC",
 		"buyer_post_code": "MI48226",
         "buyer_city": "Detroit",
@@ -65,7 +65,7 @@
         "currency": "USD",
         "tax": 0
 	},
-    "stockxnl": {
+    "StockXnl": {
         "buyer_name": "StockX LLC",
 		"buyer_post_code": "MI48226",
         "buyer_city": "Detroit",
