@@ -10,7 +10,7 @@ def get_settings(setting):
     return settings[setting]
 
 
-# Post url and basic headers
+# Url and basic headers
 url = 'https://{}.fakturownia.pl/invoices.json'.format(get_settings('domena'))
 headers = {'Accept': 'application/json',
            'Content-Type': 'application/json',
