@@ -1,5 +1,5 @@
 # FakturowniaSneakers
-Script which post invoice on **Fakturownia** based on:
+Script which posts invoice on **Fakturownia** based on:
 1. Sell date
 2. Site
 3. Item name
