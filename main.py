@@ -53,7 +53,7 @@ def post_invoice():
             positions.append({"name": name, "tax": client['tax'],
                               "total_price_gross": total_price_gross,  "quantity": 1})
 
-            if buyer_name == 'StockXde' or buyer_name == 'StockXnl':
+            if buyer_name == 'stockxde' or buyer_name == 'stockxnl':
                 positions.append({'kind': 'text_separator', 'name': "Size: {}\nOrder: {}\nInvoice: {}\nTracking: {}".format(
                     size, order, inv, tracking)})
             else:
@@ -80,7 +80,7 @@ def post_invoice():
                     "positions": positions
                 }}
 
-            if buyer_name == 'Alias' or buyer_name == 'StockXde' or buyer_name == 'StockXnl' or buyer_name == 'Sneakit':
+            if buyer_name == 'alias' or buyer_name == 'stockxde' or buyer_name == 'stockxnl' or buyer_name == 'sneakit':
                 invoice['invoice']["buyer_tax_no"] = client['buyer_tax_no']
 
             positions = []
@@ -103,7 +103,7 @@ def post_invoice():
             positions.append({"name": name, "tax": client['tax'],
                               "total_price_gross": total_price_gross,  "quantity": 1})
 
-            if buyer_name == 'StockXde' or buyer_name == 'StockXnl':
+            if buyer_name == 'stockxde' or buyer_name == 'stockxnl':
                 positions.append({'kind': 'text_separator', 'name': "Size: {}\nOrder: {}\nInvoice: {}\nTracking: {}".format(
                     size, order, inv, tracking)})
             else:
@@ -129,7 +129,7 @@ def post_invoice():
             "positions": positions
         }}
 
-    if buyer_name == 'Alias' or buyer_name == 'StockXde' or buyer_name == 'StockXnl' or buyer_name == 'Sneakit':
+    if buyer_name == 'alias' or buyer_name == 'stockxde' or buyer_name == 'stockxnl' or buyer_name == 'sneakit':
         invoice['invoice']["buyer_tax_no"] = client['buyer_tax_no']
 
     # Post last invoice

@@ -1,78 +1,78 @@
 {
-	"Alias": {
-        "buyer_name": "GOAT",
-		"buyer_post_code": "CA90018",
-        "buyer_city": "Los Angeles",
-        "buyer_street": "3433 W Exposition Place",
-        "buyer_country": "US",
-        "buyer_tax_no": "NL826259716B01",
-        "currency": "USD",
-        "tax": 0
-	},
-    "HypeBoost": {
-        "buyer_name": "Hypeboost B.V.",
-		"buyer_post_code": "4824 AS",
-        "buyer_city": "Breda",
-        "buyer_street": "Weidehek 68D",
-        "buyer_country": "NL",
-        "currency": "EUR",
-        "tax": 21
-	},
-    "Klekt": {
-        "buyer_name": "Authenticated By LTD",
-		"buyer_post_code": "5301 LX",
-        "buyer_city": "Zaltbommel",
-        "buyer_street": "Heksekamp 31A",
-        "buyer_country": "NL",
-        "currency": "EUR",
-        "tax": 21
-	},
-    "Restocks": {
-        "buyer_name": "Restocks B.V.",
-		"buyer_post_code": "4822 PK",
-        "buyer_city": "Breda",
-        "buyer_street": "Veldsteen 19",
-        "buyer_country": "NL",
-        "currency": "EUR",
-        "tax": 21
-	},
-    "Sneakit": {
-        "buyer_name": "Sneakit Marketplace GmbH",
-		"buyer_post_code": "1230",
-        "buyer_city": "Vienna",
-        "buyer_street": "Perfektastraße 61/2/1",
-        "buyer_country": "AT",
-        "buyer_tax_no": "ATU78028279",
-        "currency": "EUR",
-        "tax": 0
-	},
-    "WETHENEW": {
-        "buyer_name": "WETHENEW",
-		"buyer_post_code": "93120",
-        "buyer_city": "La Courneuve",
-        "buyer_street": "12 Rue Clement Ader",
-        "buyer_country": "FR",
-        "currency": "EUR",
-        "tax": 20
-	},
-    "StockXde": {
-        "buyer_name": "StockX LLC",
-		"buyer_post_code": "MI48226",
-        "buyer_city": "Detroit",
-        "buyer_street": "1046 Woodward Avenue",
-        "buyer_country": "US",
-        "buyer_tax_no": "DE354793020",
-        "currency": "USD",
-        "tax": 0
-	},
-    "StockXnl": {
-        "buyer_name": "StockX LLC",
-		"buyer_post_code": "MI48226",
-        "buyer_city": "Detroit",
-        "buyer_street": "1046 Woodward Avenue",
-        "buyer_country": "US",
-        "buyer_tax_no": "NL826418247B01",
-        "currency": "USD",
-        "tax": 0
-	}
+  "alias": {
+    "buyer_name": "GOAT",
+    "buyer_post_code": "CA90018",
+    "buyer_city": "Los Angeles",
+    "buyer_street": "3433 W Exposition Place",
+    "buyer_country": "US",
+    "buyer_tax_no": "NL826259716B01",
+    "currency": "USD",
+    "tax": 0
+  },
+  "hypeboost": {
+    "buyer_name": "Hypeboost B.V.",
+    "buyer_post_code": "4824 AS",
+    "buyer_city": "Breda",
+    "buyer_street": "Weidehek 68D",
+    "buyer_country": "NL",
+    "currency": "EUR",
+    "tax": 21
+  },
+  "klekt": {
+    "buyer_name": "Authenticated By LTD",
+    "buyer_post_code": "5301 LX",
+    "buyer_city": "Zaltbommel",
+    "buyer_street": "Heksekamp 31A",
+    "buyer_country": "NL",
+    "currency": "EUR",
+    "tax": 21
+  },
+  "restocks": {
+    "buyer_name": "Restocks B.V.",
+    "buyer_post_code": "4822 PK",
+    "buyer_city": "Breda",
+    "buyer_street": "Veldsteen 19",
+    "buyer_country": "NL",
+    "currency": "EUR",
+    "tax": 21
+  },
+  "sneakit": {
+    "buyer_name": "Sneakit Marketplace GmbH",
+    "buyer_post_code": "1230",
+    "buyer_city": "Vienna",
+    "buyer_street": "Perfektastraße 61/2/1",
+    "buyer_country": "AT",
+    "buyer_tax_no": "ATU78028279",
+    "currency": "EUR",
+    "tax": 0
+  },
+  "wethenew": {
+    "buyer_name": "WETHENEW",
+    "buyer_post_code": "93120",
+    "buyer_city": "La Courneuve",
+    "buyer_street": "12 Rue Clement Ader",
+    "buyer_country": "FR",
+    "currency": "EUR",
+    "tax": 20
+  },
+  "stockxde": {
+    "buyer_name": "StockX LLC",
+    "buyer_post_code": "MI48226",
+    "buyer_city": "Detroit",
+    "buyer_street": "1046 Woodward Avenue",
+    "buyer_country": "US",
+    "buyer_tax_no": "DE354793020",
+    "currency": "USD",
+    "tax": 0
+  },
+  "stockxnl": {
+    "buyer_name": "StockX LLC",
+    "buyer_post_code": "MI48226",
+    "buyer_city": "Detroit",
+    "buyer_street": "1046 Woodward Avenue",
+    "buyer_country": "US",
+    "buyer_tax_no": "NL826418247B01",
+    "currency": "USD",
+    "tax": 0
+  }
 }
