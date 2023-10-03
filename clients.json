@@ -1,11 +1,11 @@
 {
   "alias": {
-    "buyer_name": "GOAT",
+    "buyer_name": "1661, Inc. dba GOAT",
     "buyer_post_code": "CA90018",
     "buyer_city": "Los Angeles",
     "buyer_street": "3433 W Exposition Place",
     "buyer_country": "US",
-    "buyer_tax_no": "NL826259716B01",
+    "buyer_tax_no": "DE356598523",
     "currency": "USD",
     "tax": 0
   },
@@ -76,3 +76,4 @@
     "tax": 0
   }
 }
+
