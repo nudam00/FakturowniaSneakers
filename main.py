@@ -112,6 +112,7 @@ def post_invoice():
                 or buyer_name == "stockxde"
                 or buyer_name == "stockxnl"
                 or buyer_name == "sneakit"
+                or buyer_name == "wethenew"
             ):
                 invoice["invoice"]["buyer_tax_no"] = client["buyer_tax_no"]
 
@@ -187,6 +188,7 @@ def post_invoice():
         or buyer_name == "stockxde"
         or buyer_name == "stockxnl"
         or buyer_name == "sneakit"
+        or buyer_name == "wethenew"
     ):
         invoice["invoice"]["buyer_tax_no"] = client["buyer_tax_no"]
 

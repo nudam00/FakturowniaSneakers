@@ -52,8 +52,9 @@
     "buyer_city": "La Courneuve",
     "buyer_street": "12 Rue Clement Ader",
     "buyer_country": "FR",
+    "buyer_tax_no": "FR14838122034",
     "currency": "EUR",
-    "tax": 20
+    "tax": 0
   },
   "stockxde": {
     "buyer_name": "StockX LLC",
